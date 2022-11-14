@@ -24,7 +24,10 @@
      state: present
   - name: Copy fil
     copy:
-     src: /var/lib/jenkins/hello-world-servlet/tomcat-users.xml
+develop
+     src: /var/lib/jenkins/workspace/HelloWorld-Pipeline/tomcat-users.xml
+     src: /var/lib/jenkins/hello-world/tomcat-users.xml
+master
      dest: /usr/share/tomcat/conf/tomcat-users.xml
   - name: enable service tomcat
     systemd:
