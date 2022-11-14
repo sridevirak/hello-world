@@ -2,12 +2,17 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.geekcap.vmturbo</groupId>
-  <artifactId>hello-world-servlet-example</artifactId>
+  <artifactId>hello-world-example</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>hello-world-servlet-example Maven Webapp</name>
   <url>http://maven.apache.org</url>
+feature1
+
+<reporting>
+
   <reporting>
+ master
     <plugins>
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
@@ -33,9 +38,15 @@
           <sourceEncoding>utf-8</sourceEncoding>
           <minimumTokens>100</minimumTokens>
           <targetJdk>1.6</targetJdk>
+ feature1
+	<!--
+          <rulesets>
+	    <ruleset>/rulesets/braces.xml</ruleset>
+
         <!--
           <rulesets>
             <ruleset>/rulesets/braces.xml</ruleset>
+ master
           </rulesets>
           <excludes>
             <exclude>**/*Bean.java</exclude>
@@ -44,32 +55,52 @@
           <excludeRoots>
             <excludeRoot>target/generated-sources/stubs</excludeRoot>
           </excludeRoots>
+feature1
+	-->
+
         -->
+master
         </configuration>
       </plugin>
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>taglist-maven-plugin</artifactId>
         <version>2.3</version>
+feature1
+	<!--
+        <configuration>
+          <tags>
+            <tag>TODO</tag>
+            <tag>&lt;todo</tag>
         <!--
         <configuration>
           <tags>
             <tag>TODO</tag>
             <tag><todo</tag>
+ master
             <tag>FIXME</tag>
             <tag>DOCUMENT_ME</tag>
             <tag>NOT_YET_DOCUMENTED</tag>
           </tags>
         </configuration>
+feature1
+	-->
         -->
+master
       </plugin>
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>findbugs-maven-plugin</artifactId>
         <version>3.0.4</version>
+feature1
+	<configuration>
+	  <effort>Max</effort>
+	</configuration>
+
         <configuration>
           <effort>Max</effort>
         </configuration>
+ master
       </plugin>
     </plugins>
   </reporting>
