@@ -11,8 +11,7 @@ feature1
 
 <reporting>
 
-  <reporting>
- master
+   master
     <plugins>
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
