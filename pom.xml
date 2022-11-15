@@ -8,9 +8,7 @@
   <name>hello-world-servlet-example Maven Webapp</name>
   <url>http://maven.apache.org</url>
 feature1
-
 <reporting>
-
    master
     <plugins>
       <plugin>
