@@ -9,6 +9,7 @@
   <url>http://maven.apache.org</url>
 feature1
 <reporting>
+	<reporting>
    master
     <plugins>
       <plugin>
@@ -191,5 +192,5 @@ feature1
     </snapshotRepository>
 
   </distributionManagement>
-	
+	</reporting>	
 </project>
