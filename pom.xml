@@ -191,5 +191,4 @@ feature1
     </snapshotRepository>
 
   </distributionManagement>
-	</reporting>	
-</project>
+	</project>
